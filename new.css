@@ -35,11 +35,31 @@ body {
    
 }
 
+/*
 .connect {
     margin-top:10px;
     width:300px;
     height:80px;
     margin-bottom:10px;
+}*/
+
+.connect {
+    margin-top:20px;
+    width:300px;
+    height:80px;
+    margin-bottom:30px;
+   cursor: pointer;
+  outline: none;
+  
+}
+
+.connect:active {
+  background-color: #f80012;
+  box-shadow: 0 5px #f80012;
+  transform: translateY(4px);
+  border:2px dashed #f80012;
+  border-radius:10px;
+ 
 }
 
 form label{
